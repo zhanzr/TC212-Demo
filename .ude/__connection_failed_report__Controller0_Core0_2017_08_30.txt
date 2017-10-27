@@ -1,0 +1,4063 @@
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 15:55:44
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 15:55:46
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 15:56:47
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 15:56:49
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 15:58:45
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:39
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:55
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:56
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:56
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:57
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:57
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:57
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:58
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:58
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:58
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:59
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:59
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:00:59
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:01:00
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:01:24
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+  UDEDebugServer: Unable to establish connection . To correct the situation, check configuration file entries and try again.
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:01:25
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:02:14
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+  UDEDebugServer: Unable to establish connection . To correct the situation, check configuration file entries and try again.
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:02:34
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+  UDEDebugServer: Unable to establish connection . To correct the situation, check configuration file entries and try again.
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:02:35
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:02:36
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:06:18
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:07:03
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:07:05
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:07:06
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:28:24
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:28:26
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:28:27
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:28:36
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:28:36
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:28:58
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+  UDEDebugServer: Unable to establish connection . To correct the situation, check configuration file entries and try again.
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 16:28:59
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  1532126276
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 17:28:03
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 17:28:07
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 17:28:09
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 17:28:10
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+
+----------------------------------------------------------
+
+  Connection Failed Report from
+  Basic UDE Target Interface, Version: 1.12.10
+  created: 08/30/17, 17:28:11
+
+----------------------------------------------------------
+
+Windows version:
+  Win7 (Service Pack 1)
+  Admin: yes
+
+UDE version:
+  Release:  4.04.07
+  Build:    11594
+  Path:     C:\Program Files (x86)\pls\UDE 4.4
+
+Target configuration file:
+  D:\TC275_ceshi\BaseFramework_TC234_aurix1G\.ude\.target\TriBoard_TC23xA.cfg
+
+Error messages:
+  McdTargIntf: Can't connect target !
+
+Setup:
+  McdDllPath:  mcdxdas.dll
+  ReqDllVers:  1.4
+  HostName:  localhost
+  ServerName:  UDAS
+  SystemKey:  
+  RunningOnly:  n
+  McdExitIfLastClient:  y
+  PrjPath:  
+  GetPrjPathFromFile:  
+  McdDevice:  
+  McdDeviceType:  0xFFFFFFFF
+  McdDeviceId:  4294967295
+  McdCore:  
+  McdCoreType:  0xFFFFFFFF
+  McdCoreId:  4294967295
+  MemSpaceName:  
+  MemSpaceId:  -1
+  RegSpaceName:  
+  RegSpaceId:  0
+  RstVector:  0x00000001
+  ConnOption:  Default
+  LoadElfFromSim:  n
+  HandleInactiveAfterReset:  n
+  ForceInactiveAfterReset:  n
+  BlockResetBeforeGo:  n
+  BlockReset:  n
+  BlockFlashAccess:  n
+  ResetWaitTime:  0
+  BrpAddrRangeBugfix:  n
+  StepAfterConnect:  n
+  DontTouchLcxReg:  n
+  FakePcValue:  0xFFFFFFFF
+  StepAfterReset:  n
+  CoreIsSlave:  n
+  Endianness:  0
+  ExecInitCmds:  y
+  InitScript Script:
+    Script is empty
+  EnableTrace:  n
+  TraceToFile:  
+  StartServer:  n
+  StartServerWaitTime:  1000
+  ServerAppPath:  
+  ServerCmdLine:  
+  ServerWorkDir:  
+
+Info:
+  PublicName:  Controller0.Core0
+  ArchType:  3
+  Architecture:  TriCore
+  IsMaster:  y
+  RegsBaseAddr:  0xF8810000
+  CoreIndex:  0
+  McdDllPath:  C:\Windows\system32\mcdxdas.dll
+  McdDllVersion:  1.8.0.0 (SVN 28)
+  McdServer:  UDAS
+  McdAccHw:  
+  McdSystem:  Real HW
+  McdSystemInstance:  
+  PrjPath:  
+  McdDevice:  TriCore-Family
+  McdDeviceType:  0x10200083
+  McdDeviceId:  0
+  McdCore:  Core 0: CPU0 TriCore 1.6E
+  McdCoreType:  0x0000002C
+  McdCoreId:  12042242
+  InactiveAfterReset:  n
+  StartInactiveCoreDone:  n
+  AbmModeDetected:  y
+  TraceBufferUsage:  0
+  TraceBufferOverflow:  n
+  TraceId:  4294967295
+  TraceName:  
+
+

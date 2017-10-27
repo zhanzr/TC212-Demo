@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<stg format="2.0">
+	<OriginalWsp type="string">BaseFramework_TC212_AB_Gpio.wsx</OriginalWsp><BackupWspFlag type="flag">0</BackupWspFlag><UseWspCnt type="int">1</UseWspCnt><WspCloseCnt type="int">0</WspCloseCnt><ProdInfo type="bin" size="52">vQTv/gAAAQAYAAIAiSkNAAIABAAAAAAAPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAA==</ProdInfo><ProdInfoString type="string">4.2</ProdInfoString><CreationDate type="string">13.09.2017 16:36:50:000</CreationDate><MainFrame type="key"><EclipsePlacementRoot type="key"/><StdTargetManagerWin type="key"><OPEN_VIEW type="key"><FrameCreated type="string">14.09.2017 17:58:46:196</FrameCreated><ViewSrv type="key"><TargetBrowserView type="key"/></ViewSrv><EclipseFrameMode type="int">139264</EclipseFrameMode><EclipseFrameSaveIndex type="int">4294967295</EclipseFrameSaveIndex><FrameUserTitle type="string"></FrameUserTitle><CommonVisibilityGroup type="flag">0</CommonVisibilityGroup><VisibilityGroupsCnt type="int">0</VisibilityGroupsCnt></OPEN_VIEW></StdTargetManagerWin><StdUDEMessageWin type="key"><OPEN_VIEW type="key"><FrameCreated type="string">13.09.2017 16:36:58:407</FrameCreated><ViewSrv type="key"/><EclipseFrameMode type="int">151552</EclipseFrameMode><EclipseFrameSaveIndex type="int">4294967295</EclipseFrameSaveIndex><FrameUserTitle type="string"></FrameUserTitle><CommonVisibilityGroup type="flag">0</CommonVisibilityGroup><VisibilityGroupsCnt type="int">0</VisibilityGroupsCnt></OPEN_VIEW></StdUDEMessageWin><StdUDECmdWin type="key"/><UDEProgressWin type="key"><OPEN_VIEW type="key"><FrameCreated type="string">13.09.2017 16:36:58:057</FrameCreated><ViewSrv type="key"/><EclipseFrameMode type="int">151552</EclipseFrameMode><EclipseFrameSaveIndex type="int">4294967295</EclipseFrameSaveIndex><FrameUserTitle type="string"></FrameUserTitle><CommonVisibilityGroup type="flag">0</CommonVisibilityGroup><VisibilityGroupsCnt type="int">0</VisibilityGroupsCnt></OPEN_VIEW></UDEProgressWin><StdUDEWspHTMLView type="key"/><UDETraceWin2 type="key"/><UDEUECViewServer type="key"/><UDEPersistStreamView type="key"/></MainFrame><INI_SECTION type="key"><Macro type="key"><MacroLib type="string">C:\Program Files (x86)\pls\UDE 4.2\StdLibrary.mso</MacroLib></Macro><Loader type="key"><LOADER_REGKEY_WSP type="string">{a7931190-c1f7-4161-bdea-75689f6401e0}</LOADER_REGKEY_WSP></Loader></INI_SECTION><AddOns type="key"><UDE.Script type="key"><MacroGuiEntries type="key"><Macro_13_09_17_16_36_56_0 type="key"><ScriptDescription type="string">The script contains a collection of macros to save memory content into different file formats 
+and fill target memory ranges</ScriptDescription><ScriptPath type="string">V:\UDE\AddOns\Macro\MacroLibrary\StdMacros1.dsm</ScriptPath><ScriptSource type="string">'	
+'	$Header: /Ude/AddOns/Macro/MacroLibrary/StdMacros.dsm 3     30.04.04 9:34 Weisses $
+'_______________________________________________________
+'
+'	universal debug engine
+'	 
+'	Standard command line macros - part 1 
+'
+'	pls Development Tools 1999-2004
+'
+'   28.04.04    SW     correction for UDE 1.10
+'   03.06.03    SW     initial version
+'_______________________________________________________
+
+'_______________________________________________________
+'
+'	UnAss command line function
+' 
+'	generates disassembly file 
+'
+'	command line UnAss output-file range1 [range2] [range3] .....
+'	range description:
+'		C:&lt;startaddress&gt;,&lt;length&gt; or	- code
+'		DB:&lt;startaddress&gt;,&lt;length&gt; or	- data byte
+'		DW:&lt;startaddress&gt;,&lt;length&gt; or	- data word
+'		DD:&lt;startaddress&gt;,&lt;length&gt; or	- data dword
+'_______________________________________________________
+
+Sub UnAss(File,ParameterObj)
+
+	set debugger = workspace.Coredebugger(0)
+	set DisASMObj = debugger.DisASMObj
+	If Not IsObject(ParameterObj) Then
+	  	MsgBox "Number of parameters wrong"
+		Exit Sub 		
+	End If
+	If IsNumeric(File) Then
+	  	MsgBox "File parameter wrong - " &amp; File
+		Exit Sub 		
+	End If
+	DisASMObj.OutputPath = CStr(File)
+	bRetVal = DisASMObj.CreateStream(True,"UDE Disassembler output of current Program",False)
+	If bRetVal = True Then
+		ParmeterCnt = ParameterObj.ParameterCount
+		If ParmeterCnt = 0 Then
+	  		MsgBox "Number of parameters wrong " &amp; ParmeterCnt
+			Exit Sub 		
+		End If
+		If ( ParmeterCnt Mod 3 ) &lt;&gt; 0 Then
+	  		MsgBox "Number of parameters wrong " &amp; ParmeterCnt
+			Exit Sub 		
+		End If
+		RangeCnt = ParmeterCnt/3
+		ParamIndex = 0
+		For Range = 0 To RangeCnt -1 
+			KindOfRange = CStr(ParameterObj.Parameter(ParamIndex)) 
+			KindOfRange = UCase(KindOfRange)
+			Address = CLng(ParameterObj.Parameter(ParamIndex +1))		
+			Length = CLng(ParameterObj.Parameter(ParamIndex +2))
+			ParamIndex = ParamIndex +3
+			If IsNumeric(KindOfRange) Then
+				If KindOfRange = 12 Then
+ 					DisASMObj.AddRange Address,Length,1
+				ElseIf KindOfRange = 219 Then
+ 					DisASMObj.AddRange Address,Length,2
+				ElseIf KindOfRange = 221 Then
+ 					DisASMObj.AddRange Address,Length,4
+				Else
+	  				MsgBox "Invalid range type " &amp; KindOfRange &amp;  "of range " &amp; Range +1
+					Exit Sub 		
+			 	End If
+			Else
+				If KindOfRange = "C" Then
+ 					DisASMObj.AddRange Address,Length,1
+				ElseIf KindOfRange = "DB" Then
+ 					DisASMObj.AddRange Address,Length,2
+				ElseIf KindOfRange = "DW" Then
+ 					DisASMObj.AddRange Address,Length,3
+				ElseIf KindOfRange = "DD" Then
+ 					DisASMObj.AddRange Address,Length,4
+				Else
+	  				MsgBox "Invalid range type " &amp; KindOfRange &amp;  "of range " &amp; Range +1
+					Exit Sub 		
+				End If
+			End If
+		Next
+		DisASMObj.HexFileModeFlag = False
+		DisASMObj.ListModeFlag = False
+		DisASMObj.WriteAllRanges(False)
+	End If
+
+End Sub
+
+'_______________________________________________________
+'
+'	SaveHEX command line function
+' 
+'	generates intel-HEX file 
+'
+'	command line SaveHex output-file range1 [range2] [range3] .....
+'	range description:
+'		&lt;startaddress&gt;,&lt;length&gt; 
+'_______________________________________________________
+
+Sub SaveHEX(File,ParameterObj)
+
+	set debugger = workspace.Coredebugger(0)
+	set DisASMObj = debugger.DisASMObj
+	If Not IsObject(ParameterObj) Then
+	  	MsgBox "Number of parameters wrong"
+		Exit Sub 		
+	End If
+	If IsNumeric(File) Then
+	  	MsgBox "File parameter wrong - " &amp; File
+		Exit Sub 		
+	End If
+	DisASMObj.OutputPath = CStr(File)
+	bRetVal = DisASMObj.CreateStream(True,"UDE generated intel-Hex file of current Program",False)
+	If bRetVal = True Then
+		ParmeterCnt = ParameterObj.ParameterCount
+		If ParmeterCnt = 0 Then
+	  		MsgBox "Number of parameters wrong " &amp; ParmeterCnt
+			Exit Sub 		
+		End If
+		If ( ParmeterCnt Mod 2 ) &lt;&gt; 0 Then
+	  		MsgBox "Number of parameters wrong " &amp; ParmeterCnt
+			Exit Sub 		
+		End If
+		RangeCnt = ParmeterCnt/2
+		ParamIndex = 0
+		For Range = 0 To RangeCnt -1 
+			Address = CLng(ParameterObj.Parameter(ParamIndex))		
+			Length = CLng(ParameterObj.Parameter(ParamIndex +1))
+			ParamIndex = ParamIndex +2
+ 			DisASMObj.AddRange Address,Length,0
+		Next
+		DisASMObj.HexFileModeFlag = True
+		DisASMObj.WriteAllRanges(False)
+	End If
+
+End Sub
+
+'_______________________________________________________
+'
+'	FillByte command line function
+' 
+'	fills memory range with byte pattern 
+'
+'	command line FillByte range1,pattern1 [range2,pattern2] [range3,pattern3] .....
+'	range description:
+'		&lt;startaddress&gt;,&lt;length&gt; 
+'_______________________________________________________
+
+Sub FillByte(ParameterObj)
+
+	set debugger = workspace.Coredebugger(0)
+	set DisASMObj = debugger.DisASMObj
+	If Not IsObject(ParameterObj) Then
+	  	MsgBox "Number of parameters wrong"
+		Exit Sub 		
+	End If
+	ParmeterCnt = ParameterObj.ParameterCount
+	If ParmeterCnt = 0 Then
+	  	MsgBox "Number of parameters wrong " &amp; ParmeterCnt
+		Exit Sub 		
+	End If
+	If ( ParmeterCnt Mod 3 ) &lt;&gt; 0 Then
+	  	MsgBox "Number of parameters wrong " &amp; ParmeterCnt
+		Exit Sub 		
+	End If
+	RangeCnt = ParmeterCnt/3
+	ParamIndex = 0
+	set udearrayobj = debugger.ByteArrayObj(1)
+	For Range = 0 To RangeCnt -1 
+		Address = CLng(ParameterObj.Parameter(ParamIndex))		
+		Length = CLng(ParameterObj.Parameter(ParamIndex +1))
+		Pattern = CLng(ParameterObj.Parameter(ParamIndex +2))
+		ParamIndex = ParamIndex +3
+		udearrayobj.Resize(Length)
+		udearrayobj.Fill(Pattern)
+		debugger.Write Address,udearrayobj
+	Next
+
+End Sub
+
+'_______________________________________________________
+'
+'	FillWord command line function
+' 
+'	fills memory range with word pattern 
+'
+'	command line FillWord range1,pattern1 [range2,pattern2] [range3,pattern3] .....
+'	range description:
+'		&lt;startaddress&gt;,&lt;length&gt; 
+'_______________________________________________________
+
+Sub FillWord(ParameterObj)
+
+	set debugger = workspace.Coredebugger(0)
+	set DisASMObj = debugger.DisASMObj
+	If Not IsObject(ParameterObj) Then
+	  	MsgBox "Number of parameters wrong"
+		Exit Sub 		
+	End If
+	ParmeterCnt = ParameterObj.ParameterCount
+	If ParmeterCnt = 0 Then
+	  	MsgBox "Number of parameters wrong " &amp; ParmeterCnt
+		Exit Sub 		
+	End If
+	If ( ParmeterCnt Mod 3 ) &lt;&gt; 0 Then
+	  	MsgBox "Number of parameters wrong " &amp; ParmeterCnt
+		Exit Sub 		
+	End If
+	RangeCnt = ParmeterCnt/3
+	ParamIndex = 0
+	set udearrayobj = debugger.WordArrayObj(1)
+	For Range = 0 To RangeCnt -1 
+		Address = CLng(ParameterObj.Parameter(ParamIndex))		
+		Length = CLng(ParameterObj.Parameter(ParamIndex +1)/2)
+		Pattern = CLng(ParameterObj.Parameter(ParamIndex +2))
+		ParamIndex = ParamIndex +3
+		udearrayobj.Resize(Length)
+		udearrayobj.Fill(Pattern)
+		debugger.Write Address,udearrayobj
+	Next
+
+End Sub
+
+'_______________________________________________________
+'
+'	FillDWord command line function
+' 
+'	fills memory range with dword pattern 
+'
+'	command line FillDWord range1,pattern1 [range2,pattern2] [range3,pattern3] .....
+'	range description:
+'		&lt;startaddress&gt;,&lt;length&gt; 
+'_______________________________________________________
+
+Sub FillDWord(ParameterObj)
+
+	set debugger = workspace.Coredebugger(0)
+	set DisASMObj = debugger.DisASMObj
+	If Not IsObject(ParameterObj) Then
+	  	MsgBox "Number of parameters wrong"
+		Exit Sub 		
+	End If
+	ParmeterCnt = ParameterObj.ParameterCount
+	If ParmeterCnt = 0 Then
+	  	MsgBox "Number of parameters wrong " &amp; ParmeterCnt
+		Exit Sub 		
+	End If
+	If ( ParmeterCnt Mod 3 ) &lt;&gt; 0 Then
+	  	MsgBox "Number of parameters wrong " &amp; ParmeterCnt
+		Exit Sub 		
+	End If
+	RangeCnt = ParmeterCnt/3
+	ParamIndex = 0
+	set udearrayobj = debugger.DWordArrayObj(1)
+	For Range = 0 To RangeCnt -1 
+		Address = CLng(ParameterObj.Parameter(ParamIndex))		
+		Length = CLng(ParameterObj.Parameter(ParamIndex +1)/4)
+		Pattern = CLng(ParameterObj.Parameter(ParamIndex +2))
+		ParamIndex = ParamIndex +3
+		udearrayobj.Resize(Length)
+		udearrayobj.Fill(Pattern)
+		debugger.Write Address,udearrayobj
+	Next
+
+End Sub
+</ScriptSource><ScriptArchitecture type="int">63</ScriptArchitecture><ScriptEngine type="string">VBScript</ScriptEngine><MacroFileTime type="string">24.11.2006 14:43:20:000</MacroFileTime><ScriptFromStg type="flag">1</ScriptFromStg><LocalComputerName type="string">WS_CORE_DUO</LocalComputerName><ExternalScriptPath type="string"></ExternalScriptPath><NextNodeName type="string">Macro_13_09_17_16_36_56_0</NextNodeName><UnAss type="key"><GUIEntry type="key"><MenuID type="int">10</MenuID><MenuString type="string">Execute UnAss ..</MenuString><ToolTipString type="string">Macro UnAss</ToolTipString><MessageString type="string">Execute macro UnAss</MessageString><DebugFlag type="flag">0</DebugFlag></GUIEntry><FuncParameterCnt type="int">2</FuncParameterCnt><GUIEntryDescription type="string"></GUIEntryDescription></UnAss><SaveHEX type="key"><GUIEntry type="key"><MenuID type="int">10</MenuID><MenuString type="string">Execute SaveHEX ..</MenuString><ToolTipString type="string">Macro SaveHEX</ToolTipString><MessageString type="string">Execute macro SaveHEX</MessageString><DebugFlag type="flag">0</DebugFlag></GUIEntry><FuncParameterCnt type="int">2</FuncParameterCnt><GUIEntryDescription type="string"></GUIEntryDescription></SaveHEX><FillByte type="key"><GUIEntry type="key"><MenuID type="int">10</MenuID><MenuString type="string">Execute FillByte ..</MenuString><ToolTipString type="string">Macro FillByte</ToolTipString><MessageString type="string">Execute macro FillByte</MessageString><DebugFlag type="flag">0</DebugFlag></GUIEntry><FuncParameterCnt type="int">1</FuncParameterCnt><GUIEntryDescription type="string"></GUIEntryDescription></FillByte><FillWord type="key"><GUIEntry type="key"><MenuID type="int">10</MenuID><MenuString type="string">Execute FillWord ..</MenuString><ToolTipString type="string">Macro FillWord</ToolTipString><MessageString type="string">Execute macro FillWord</MessageString><DebugFlag type="flag">0</DebugFlag></GUIEntry><FuncParameterCnt type="int">1</FuncParameterCnt><GUIEntryDescription type="string"></GUIEntryDescription></FillWord><FillDWord type="key"><GUIEntry type="key"><MenuID type="int">10</MenuID><MenuString type="string">Execute FillDWord ..</MenuString><ToolTipString type="string">Macro FillDWord</ToolTipString><MessageString type="string">Execute macro FillDWord</MessageString><DebugFlag type="flag">0</DebugFlag></GUIEntry><FuncParameterCnt type="int">1</FuncParameterCnt><GUIEntryDescription type="string"></GUIEntryDescription></FillDWord><NoOfFunctions type="int">5</NoOfFunctions><MacroFunction0 type="key"/><MacroFunction1 type="key"/><MacroFunction2 type="key"/><MacroFunction3 type="key"/><MacroFunction4 type="key"/></Macro_13_09_17_16_36_56_0></MacroGuiEntries></UDE.Script></AddOns><MultiCoreRunControl type="key"/><Controller0 type="key"/><Core0 type="key"><ViewSrv type="key"><TriCoreCpuWin type="key"/><StdUDESymbolExplWin type="key"><OPEN_VIEW type="key"><FrameCreated type="string">13.09.2017 16:36:58:527</FrameCreated><ViewSrv type="key"/><EclipseFrameMode type="int">139264</EclipseFrameMode><EclipseFrameSaveIndex type="int">4294967295</EclipseFrameSaveIndex><FrameUserTitle type="string"></FrameUserTitle><CommonVisibilityGroup type="flag">0</CommonVisibilityGroup><VisibilityGroupsCnt type="int">0</VisibilityGroupsCnt></OPEN_VIEW></StdUDESymbolExplWin><StdUDEProgWin type="key"><OPEN_VIEW00 type="key"><FrameCreated type="string">13.09.2017 16:37:01:242</FrameCreated><ViewSrv type="key"><AnimateQueue type="key"/></ViewSrv><EclipseFrameMode type="int">135168</EclipseFrameMode><EclipseFrameSaveIndex type="int">4294967295</EclipseFrameSaveIndex><FrameUserTitle type="string"></FrameUserTitle><CommonVisibilityGroup type="flag">0</CommonVisibilityGroup><VisibilityGroupsCnt type="int">0</VisibilityGroupsCnt></OPEN_VIEW00></StdUDEProgWin><StdUDESFRView type="key"/><StdUDELocalsWin type="key"/><StdUDEWatchWin type="key"/><StdUDESimIOWin type="key"/><StdUDEHtmlDocWin type="key"/><StdUDEGraphWin type="key"/><StdUDETimeSampleGraphWin type="key"/><StdUDEMemWin type="key"/><UDEStackWin type="key"/></ViewSrv><UDE.StdDbgSrv type="key"><INI_SECTION type="key"/><UDE.TriCoreArchSrv type="key"><UDE.McdTargIntf type="key"/></UDE.TriCoreArchSrv><UDE.UDESymbol type="key"><BinaryFiles type="key"><Number type="int">1</Number><BinaryFile1 type="key"><FullPath type="string">..\iROM\BaseFramework_TC212_AB_Gpio.elf</FullPath><SourceAliases type="key"><FullPath1 type="string">F:\TC212ceshi\BaseFramework_TC212_AB_GPIO\0_Src\4_McHal\Tricore\Cpu\CStart\IfxCpu_CStart0.c</FullPath1><EntryInFile1 type="string">D:\TC212_Demo\BaseFramework_TC212_AB_GPIO\0_Src\4_McHal\Tricore\Cpu\CStart\IfxCpu_CStart0.c</EntryInFile1><Number type="int">1</Number></SourceAliases></BinaryFile1></BinaryFiles><ExpressionClipboard type="key"><Number type="int">0</Number></ExpressionClipboard></UDE.UDESymbol><STG_ADDON_PROF type="key"><UDE_Graphwin_Trace_AddOn type="key" name="UDE Graphwin Trace AddOn"><LOAD_STATE type="flag">1</LOAD_STATE></UDE_Graphwin_Trace_AddOn><UDELicense_Server type="key" name="UDELicense Server"><LOAD_STATE type="flag">1</LOAD_STATE></UDELicense_Server><UDEMemtool type="key"><LOAD_STATE type="flag">1</LOAD_STATE><FlashMod_PFLASH0 type="key"/><FlashMod_DF_EEPROM type="key"/><Frontend type="key"><LastModule type="int">0</LastModule><VerifyProt type="flag">0</VerifyProt><VerifyProtFile type="string">verify.txt</VerifyProtFile><VerifyOnExit type="flag">0</VerifyOnExit><StoreLoadedSections type="flag">0</StoreLoadedSections><AutoStartProgAfterDownload type="flag">0</AutoStartProgAfterDownload><AutoCloseExecCmdDialog type="flag">0</AutoCloseExecCmdDialog><AllowOverwrite type="flag">0</AllowOverwrite></Frontend></UDEMemtool></STG_ADDON_PROF><CommQueueHndlStg type="key"/><TargetStateHndlStg type="key"/></UDE.StdDbgSrv><MRUSourceFileList type="key"><NoOfMRUSrcFileEntries type="int">1</NoOfMRUSrcFileEntries><MRUSrcFile0 type="string">..\0_Src\4_McHal\Tricore\Cpu\CStart\IfxCpu_CStart0.c</MRUSrcFile0></MRUSourceFileList></Core0><BackupWsp type="string">BaseFramework_TC212_AB_Gpio_091417175841.wsx</BackupWsp></stg>
