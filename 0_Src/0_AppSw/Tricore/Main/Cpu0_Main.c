@@ -17,7 +17,7 @@ int core0_main (void)
 	Gpio_init();
     while (1)
      {
-    	wait(TimeConst_1s * 2);
+    	wait(TimeConst_1s * 3);
     	Gpio_demo();
       }
      return (1);
